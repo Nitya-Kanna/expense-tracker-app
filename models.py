@@ -34,9 +34,9 @@ VALID_CURRENCIES = [
 #REQUEST MODELS - WHAT USERS WILL SEND 
 
 
-class UserRegistration(BaseModel):
+class UserRegister(BaseModel):
     """
-    Model for UserRegistration
+    Model for User Registration
 
     Example:
 

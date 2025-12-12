@@ -29,6 +29,7 @@ def init_db():
             user_id INTEGER NOT NULL,
             amount REAL NOT NULL,
             currency TEXT NOT NULL,
+            amount_home REAL NOT NULL,
             description TEXT,
             category TEXT NOT NULL,
             date DATE NOT NULL,
